@@ -1,12 +1,12 @@
 ## Project Setup:
 PHP 8.2 or above (Laravel 11)
 
-open terminal and run the following commands in project's root direcotry:
-- composer install [installs dependencies]
-- cp .env.example .env [creates .env file from .env.example]
-- php artisan key:generate [sets APP_KEY]
-- php artisan migrate [runs migration]
--- Would you like to create it? (yes/no) [yes]
+open terminal and run the following commands in project's root directory:
+- composer install | [installs dependencies]
+- cp .env.example .env | [creates .env file from .env.example]
+- php artisan key:generate | [sets APP_KEY]
+- php artisan migrate | [runs migration]
+-     Would you like to create it? (yes/no) [yes]
 - php artisan serve [runs project]
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
