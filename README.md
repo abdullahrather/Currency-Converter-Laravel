@@ -1,19 +1,21 @@
-## Project Setup:
-PHP 8.2 or above (Laravel 11)
-Exchange Rate API used to fetch live currency rates from their API.
-
+## Requirement
+**PHP 8.2** or **above** (**Laravel 11**)
+## Description
+Currency Converter created in Laravel Exchange Rate API used to fetch live currency rates from their API.
+# Project Setup:
 open terminal and run the following commands in project's root directory to setup the project:
-- run composer install in project's root
+
+Run composer install in project's root
 -     composer install
-- create .env file from .env.example
+Create .env file from .env.example
 -     cp .env.example .env
-- set APP_KEY in .env
+Set APP_KEY in .env
 -     php artisan key:generate
-- run migration
+Run migration
 -     php artisan migrate
-- Promted: Would you like to create it? (yes/no)
+Promted: Would you like to create it? (yes/no)
 -     yes
-- run project
+Run project
 -     php artisan serve
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
