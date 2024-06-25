@@ -1,13 +1,22 @@
-## Project Setup:
-PHP 8.2 or above (Laravel 11)
+## Requirement
+**PHP 8.2** or **above** (**Laravel 11**)
+## Description
+Currency Converter created in Laravel Exchange Rate API used to fetch live currency rates from their API.
+# Project Setup:
+open terminal and run the following commands in project's root directory to setup the project:
 
-open terminal and run the following commands in project's root direcotry:
-- composer install [installs dependencies]
-- cp .env.example .env [creates .env file from .env.example]
-- php artisan key:generate [sets APP_KEY]
-- php artisan migrate [runs migration]
--- Would you like to create it? (yes/no) [yes]
-- php artisan serve [runs project]
+Run composer install in project's root
+-     composer install
+Create .env file from .env.example
+-     cp .env.example .env
+Set APP_KEY in .env
+-     php artisan key:generate
+Run migration
+-     php artisan migrate
+Promted: Would you like to create it? (yes/no)
+-     yes
+Run project
+-     php artisan serve
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 

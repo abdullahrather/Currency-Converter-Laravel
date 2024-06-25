@@ -83,14 +83,14 @@ body {
 }
 
 .box-left {
-    height: 23.5em;
+    height: 15em;
     background-color: #ffffff;
     border-bottom-left-radius: 0.5em;
     border-bottom-right-radius: 0.5em;
 }
 
 .box-right {
-    height: 21em;
+    height: 23.5em;
     background-color: #3682ce;
     border-top-left-radius: 0.5em;
     border-top-right-radius: 0.5em;
@@ -104,13 +104,13 @@ body {
 
 @media (min-width: 43.75em) {
     .box-left {
-        width: 55%;
+        width: 50%;
         border-top-left-radius: 0.5em;
         border-top-right-radius: 0.5em;
     }
 
     .box-right {
-        width: 45%;
+        width: 50%;
         border-bottom-right-radius: 0.5em;
         border-top-left-radius: 0;
 
@@ -130,7 +130,8 @@ body {
 }
 
 .app-info {
-    color: #a7bacf;
+    color: #4caf50;
+    font-weight: 600;
 }
 
 .app-title,
@@ -140,6 +141,10 @@ body {
 
 .small-text {
     font-size: 0.75em;
+}
+
+.medium-text {
+    font-size: 2.00em;
 }
 
 .main-text {
@@ -190,4 +195,45 @@ body {
     padding: 0.845em;
     background: #fdfeff;
     border-color: #fdfeff;
+}
+
+.currency-btn-group .input-group button.currency-btn {
+    background-color: #fdfeff;
+    color: #0a2e69;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.currency-btn-group .input-group button.currency-btn:hover {
+    background-color: #3dd217;
+    color: #ffffff;
+}
+
+.currency-switch-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    transform: rotate(90deg);
+}
+
+.currency-switch-btn:hover {
+    color: #d4d4d4;
+}
+
+.currency-switch-btn i {
+    transition: transform 0.3s ease;
+}
+
+.currency-switch-btn:hover i {
+    transform: rotate(180deg);
+}
+
+.switch-container,
+.convert-btn-container {
+    display: flex;
+    justify-content: center;
 }
