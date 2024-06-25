@@ -3,8 +3,11 @@
 ## Description
 Currency Converter created in Laravel Exchange Rate API used to fetch live currency rates from their API.
 # Project Setup:
-open terminal and run the following commands in project's root directory to setup the project:
+Open Terminal in VS Code / PHPStorm or editor of your choice and run the following commands in steps:
 
+Clone the repository from GitHub:
+-     git clone  https://github.com/abdullahrather/Currency-Converter-Laravel.git
+-     cd Currency-Converter-Laravel
 Run composer install in project's root
 -     composer install
 Create .env file from .env.example
