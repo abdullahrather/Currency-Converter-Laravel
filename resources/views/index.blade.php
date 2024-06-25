@@ -1,4 +1,5 @@
 @extends('layouts.main')
+
 @section('main-section')
   <main class="container">
     <section class="boxes">
