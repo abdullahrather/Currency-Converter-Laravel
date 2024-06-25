@@ -196,3 +196,44 @@ body {
     background: #fdfeff;
     border-color: #fdfeff;
 }
+
+.currency-btn-group .input-group button.currency-btn {
+    background-color: #fdfeff;
+    color: #0a2e69;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.currency-btn-group .input-group button.currency-btn:hover {
+    background-color: #3dd217;
+    color: #ffffff;
+}
+
+.currency-switch-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    transform: rotate(90deg);
+}
+
+.currency-switch-btn:hover {
+    color: #d4d4d4;
+}
+
+.currency-switch-btn i {
+    transition: transform 0.3s ease;
+}
+
+.currency-switch-btn:hover i {
+    transform: rotate(180deg);
+}
+
+.switch-container,
+.convert-btn-container {
+    display: flex;
+    justify-content: center;
+}
