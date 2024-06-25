@@ -12,7 +12,6 @@
   <link rel="stylesheet" href="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css') }}">
   <!-- Importing custom CSS -->
   <link rel="stylesheet" href="{{ asset('assets/css.css') }}">
-  @vite(['resources/js/app.js'])
 </head>
 
 <body>
