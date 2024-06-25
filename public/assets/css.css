@@ -83,14 +83,14 @@ body {
 }
 
 .box-left {
-    height: 23.5em;
+    height: 15em;
     background-color: #ffffff;
     border-bottom-left-radius: 0.5em;
     border-bottom-right-radius: 0.5em;
 }
 
 .box-right {
-    height: 21em;
+    height: 23.5em;
     background-color: #3682ce;
     border-top-left-radius: 0.5em;
     border-top-right-radius: 0.5em;
@@ -104,13 +104,13 @@ body {
 
 @media (min-width: 43.75em) {
     .box-left {
-        width: 55%;
+        width: 50%;
         border-top-left-radius: 0.5em;
         border-top-right-radius: 0.5em;
     }
 
     .box-right {
-        width: 45%;
+        width: 50%;
         border-bottom-right-radius: 0.5em;
         border-top-left-radius: 0;
 
@@ -130,7 +130,8 @@ body {
 }
 
 .app-info {
-    color: #a7bacf;
+    color: #4caf50;
+    font-weight: 600;
 }
 
 .app-title,
@@ -140,6 +141,10 @@ body {
 
 .small-text {
     font-size: 0.75em;
+}
+
+.medium-text {
+    font-size: 2.00em;
 }
 
 .main-text {

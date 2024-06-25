@@ -7,8 +7,8 @@ use Illuminate\Support\Facades\Route;
     return view('welcome');
 }); */
 
-// This route maps the root URL ("/") to the index method of the CurrencyConvertController class. | Documented by Abdullah Rather
+// This route maps the root URL ("/") to the index method of the CurrencyConvertController class.
 Route::get('/', [CurrencyConvertController::class, 'index']);
 
-// This route maps the "/convert" URL to the convert method of the CurrencyConvertController class. | Documented by Abdullah Rather
+// This route maps the "/convert" URL to the convert method of the CurrencyConvertController class.
 Route::post('/convert', [CurrencyConvertController::class, 'convert']);
