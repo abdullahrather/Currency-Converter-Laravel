@@ -16,9 +16,8 @@ class AppServiceProvider extends ServiceProvider
         // Register GuzzleHttp Client singleton for communicating with ExchangeRate-API
         $this->app->singleton(Client::class, function ($app) {
             return new Client([
-                // Best practice is to store API in .env file but in this task for the ease of project setup by the reviewer,
-                // I have hardcoded it in the base_uri
-                'base_uri' => 'https://v6.exchangerate-api.com/v6/5cc908376f994c93a74f0d43/',
+                // The API key comes from EXCHANGE_RATE_API_KEY in .env
+                'base_uri' => 'https://v6.exchangerate-api.com/v6/' . config('services.exchange_rate.key') . '/',
                 'timeout'  => 2.0,
                 'verify' => base_path('certificates/cacert.pem'),
             ]);
