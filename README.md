@@ -1,6 +1,6 @@
 # Laravel Currency Converter
 
-A Laravel 11 currency converter that shows live exchange rates and converts amounts between currencies, using ExchangeRate-API.
+A Laravel 12 currency converter that shows live exchange rates and converts amounts between currencies, using ExchangeRate-API.
 
 ## Features
 
@@ -13,7 +13,7 @@ A Laravel 11 currency converter that shows live exchange rates and converts amou
 
 ## Tech stack
 
-PHP 8.2+, Laravel 11, Guzzle, Blade and SQLite (for Laravel's sessions and cache).
+PHP 8.2+, Laravel 12, Guzzle, Blade and SQLite (for Laravel's sessions and cache).
 
 ## Getting started
 
